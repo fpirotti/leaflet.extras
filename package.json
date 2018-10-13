@@ -35,7 +35,8 @@
     "leaflet.heat": "bhaskarvk/Leaflet.heat#60cf4c4",
     "leaflet.tilelayer.pouchdbcached": "nikolauskrismer/Leaflet.TileLayer.PouchDBCached#a92b176",
     "pouchdb-browser": "6.4.3",
-    "topojson": "3.0.2"
+    "topojson": "3.0.2",
+    "leaflet.CanvasMarkers": "fpirotti/Leaflet.Canvas-Markers"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.5.1",

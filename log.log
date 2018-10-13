@@ -1,0 +1,491 @@
+
+> leaflet.extras@ build /home/local/leaflet.extras
+> napa; webpack --config webpack.config.js
+
+Hash: 33930b021ee4f118e5f56f01c02937d953dd106758cd3ed636af61f5b7774e1b7703240973a0612d2edcfc5f80a8ba4a99d8abc0da64eddb601013946ac716fb8a68b04ee0175a4ea06bdf3bf79f79a4c8f6a4f61feb718aec72decddb1f081e1bc2a1f47e7d9ea22866bd4bd2863eccd054a7e5bc508318e1ecf07c2bf85cdae448d7641955356191dcf8d49276dafd3827572804eb597e9ae4f20d7c6d20dcadd1f53c18d2a09096288fc4fa44437f74c53a744dfbd5826cb2b6e29d5fb9781b8e0992dc2dc44df1824298379a778e00e0c229ecd4c82f777f7f0d2bda294d72ddf87a65d6779635084065d8d0a0df930f561c2dc447b7628ca2223ca5d19860d106abb8ac856d753071bfd7a91e50f67873c993466a26d9a5b012889c582a692f62a51268ca7cf45bf330544f30f323130f66ce40d34251b75ce77f8752964c2aa9400b1509fa1e9f62dfbc3bc6310f83a3a66e880253f78ca7ffc15afadeabd45853756f278f5d54c6e0dde8355a7532195efecf4963c503e3a698ee355fbd117c18439a
+Version: webpack 4.1.1
+Child
+    Hash: 33930b021ee4f118e5f5
+    Time: 7207ms
+    Built at: 2018-10-13 21:31:31
+                      Asset      Size  Chunks             Chunk Names
+        csv2geojson-prod.js  6.27 KiB       0  [emitted]  main
+    csv2geojson-prod.js.map  24.3 KiB       0  [emitted]  main
+    Entrypoint main = csv2geojson-prod.js csv2geojson-prod.js.map
+       [0] ./node_modules/d3-dsv/index.js + 3 modules 4.08 KiB {0} [built]
+           |    4 modules
+        + 2 hidden modules
+Child
+    Hash: 6f01c02937d953dd1067
+    Time: 6196ms
+    Built at: 2018-10-13 21:31:30
+                    Asset      Size  Chunks             Chunk Names
+        togeojson-prod.js  8.29 KiB       0  [emitted]  main
+    togeojson-prod.js.map  39.7 KiB       0  [emitted]  main
+    Entrypoint main = togeojson-prod.js togeojson-prod.js.map
+       [0] xmldom (ignored) 15 bytes {0} [built]
+        + 2 hidden modules
+Child
+    Hash: 58cd3ed636af61f5b777
+    Time: 8645ms
+    Built at: 2018-10-13 21:31:32
+                   Asset      Size  Chunks             Chunk Names
+        topojson-prod.js  21.3 KiB       0  [emitted]  main
+    topojson-prod.js.map  94.6 KiB       0  [emitted]  main
+    Entrypoint main = topojson-prod.js topojson-prod.js.map
+       [0] ./node_modules/topojson/index.js + 39 modules 52.7 KiB {0} [built]
+           |    40 modules
+Child
+    Hash: 4e1b7703240973a0612d
+    Time: 6432ms
+    Built at: 2018-10-13 21:31:30
+                       Asset      Size  Chunks             Chunk Names
+        lfx-omnivore-prod.js  7.95 KiB       0  [emitted]  main
+    lfx-omnivore-prod.js.map  33.7 KiB       0  [emitted]  main
+    Entrypoint main = lfx-omnivore-prod.js lfx-omnivore-prod.js.map
+       [0] external "toGeoJSON" 42 bytes {0} [built]
+       [1] external "topojson" 42 bytes {0} [built]
+       [4] external "csv2geojson" 42 bytes {0} [built]
+        + 4 hidden modules
+Child
+    Hash: 2edcfc5f80a8ba4a99d8
+    Time: 5946ms
+    Built at: 2018-10-13 21:31:30
+                           Asset      Size  Chunks             Chunk Names
+        lfx-omnivore-bindings.js  6.35 KiB       0  [emitted]  main
+    lfx-omnivore-bindings.js.map  28.8 KiB       0  [emitted]  main
+    Entrypoint main = lfx-omnivore-bindings.js lfx-omnivore-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-omnivore-bindings.js 16.8 KiB {0} [built]
+Child
+    Hash: abc0da64eddb60101394
+    Time: 5898ms
+    Built at: 2018-10-13 21:31:30
+                       Asset      Size  Chunks             Chunk Names
+        lfx-geodesic-prod.js  6.93 KiB       0  [emitted]  main
+    lfx-geodesic-prod.js.map  29.9 KiB       0  [emitted]  main
+    Entrypoint main = lfx-geodesic-prod.js lfx-geodesic-prod.js.map
+       1 module
+Child
+    Hash: 6ac716fb8a68b04ee017
+    Time: 5937ms
+    Built at: 2018-10-13 21:31:30
+                           Asset      Size  Chunks             Chunk Names
+        lfx-geodesic-bindings.js  1.77 KiB       0  [emitted]  main
+    lfx-geodesic-bindings.js.map  7.29 KiB       0  [emitted]  main
+    Entrypoint main = lfx-geodesic-bindings.js lfx-geodesic-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-geodesic-bindings.js 2.28 KiB {0} [built]
+Child
+    Hash: 5a4ea06bdf3bf79f79a4
+    Time: 6843ms
+    Built at: 2018-10-13 21:31:30
+                           Asset      Size  Chunks             Chunk Names
+                    css/icon.png  4.44 KiB          [emitted]  
+                 css/control.svg  5.74 KiB          [emitted]  
+        lfx-styleeditor-prod.css  5.24 KiB       0  [emitted]  main
+         lfx-styleeditor-prod.js  30.3 KiB       0  [emitted]  main
+    lfx-styleeditor-prod.css.map  6.88 KiB       0  [emitted]  main
+     lfx-styleeditor-prod.js.map  57.5 KiB       0  [emitted]  main
+    Entrypoint main = lfx-styleeditor-prod.css lfx-styleeditor-prod.js lfx-styleeditor-prod.css.map lfx-styleeditor-prod.js.map
+       [2] external "L" 42 bytes {0} [built]
+       [4] multi Leaflet.StyleEditor Leaflet.StyleEditor/dist/css/Leaflet.StyleEditor.min.css 40 bytes {0} [built]
+        + 3 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/Leaflet.StyleEditor/dist/css/Leaflet.StyleEditor.min.css:
+                  Asset      Size  Chunks             Chunk Names
+           css/icon.png  4.44 KiB          [emitted]  
+        css/control.svg  5.74 KiB          [emitted]  
+        Entrypoint mini-css-extract-plugin = *
+           5 modules
+Child
+    Hash: c8f6a4f61feb718aec72
+    Time: 5925ms
+    Built at: 2018-10-13 21:31:30
+                              Asset       Size  Chunks             Chunk Names
+        lfx-styleeditor-bindings.js  965 bytes       0  [emitted]  main
+    lfx-styleeditor-bindings.js.map   4.13 KiB       0  [emitted]  main
+    Entrypoint main = lfx-styleeditor-bindings.js lfx-styleeditor-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-styleeditor-bindings.js 584 bytes {0} [built]
+Child
+    Hash: decddb1f081e1bc2a1f4
+    Time: 8826ms
+    Built at: 2018-10-13 21:31:32
+                         Asset     Size  Chunks             Chunk Names
+        lfx-choropleth-prod.js   48 KiB       0  [emitted]  main
+    lfx-choropleth-prod.js.map  182 KiB       0  [emitted]  main
+    Entrypoint main = lfx-choropleth-prod.js lfx-choropleth-prod.js.map
+      [28] (webpack)/buildin/module.js 519 bytes {0} [built]
+      [30] external "L" 42 bytes {0} [built]
+        + 30 hidden modules
+Child
+    Hash: 7e7d9ea22866bd4bd286
+    Time: 6828ms
+    Built at: 2018-10-13 21:31:30
+                     Asset      Size  Chunks             Chunk Names
+       css/spritesheet.svg  5.42 KiB          [emitted]  
+    css/spritesheet-2x.png   3.5 KiB          [emitted]  
+       css/spritesheet.png  1.86 KiB          [emitted]  
+         lfx-draw-prod.css  5.17 KiB       0  [emitted]  main
+          lfx-draw-prod.js  66.3 KiB       0  [emitted]  main
+     lfx-draw-prod.css.map  6.49 KiB       0  [emitted]  main
+      lfx-draw-prod.js.map   138 KiB       0  [emitted]  main
+    Entrypoint main = lfx-draw-prod.css lfx-draw-prod.js lfx-draw-prod.css.map lfx-draw-prod.js.map
+       [3] multi leaflet-draw leaflet-draw/dist/leaflet.draw.css 40 bytes {0} [built]
+        + 3 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/leaflet-draw/dist/leaflet.draw.css:
+                         Asset      Size  Chunks             Chunk Names
+           css/spritesheet.svg  5.42 KiB          [emitted]  
+        css/spritesheet-2x.png   3.5 KiB          [emitted]  
+           css/spritesheet.png  1.86 KiB          [emitted]  
+        Entrypoint mini-css-extract-plugin = *
+           6 modules
+Child
+    Hash: 3eccd054a7e5bc508318
+    Time: 7091ms
+    Built at: 2018-10-13 21:31:31
+                        Asset      Size  Chunks             Chunk Names
+        lfx-draw-drag-prod.js  80.6 KiB       0  [emitted]  main
+    lfx-draw-drag-prod.js.map   182 KiB       0  [emitted]  main
+    Entrypoint main = lfx-draw-drag-prod.js lfx-draw-drag-prod.js.map
+      [12] external "L" 42 bytes {0} [built]
+      [13] (webpack)/buildin/global.js 509 bytes {0} [built]
+        + 13 hidden modules
+Child
+    Hash: e1ecf07c2bf85cdae448
+    Time: 5909ms
+    Built at: 2018-10-13 21:31:30
+                       Asset      Size  Chunks             Chunk Names
+        lfx-draw-bindings.js  4.23 KiB       0  [emitted]  main
+    lfx-draw-bindings.js.map  14.5 KiB       0  [emitted]  main
+    Entrypoint main = lfx-draw-bindings.js lfx-draw-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-draw-bindings.js 7.16 KiB {0} [built]
+Child
+    Hash: d7641955356191dcf8d4
+    Time: 6811ms
+    Built at: 2018-10-13 21:31:30
+                          Asset       Size  Chunks             Chunk Names
+          css/fullscreen@2x.png  420 bytes          [emitted]  
+             css/fullscreen.png  299 bytes          [emitted]  
+        lfx-fullscreen-prod.css   1.03 KiB       0  [emitted]  main
+         lfx-fullscreen-prod.js   3.57 KiB       0  [emitted]  main
+    lfx-fullscreen-prod.css.map    1.4 KiB       0  [emitted]  main
+     lfx-fullscreen-prod.js.map   11.2 KiB       0  [emitted]  main
+    Entrypoint main = lfx-fullscreen-prod.css lfx-fullscreen-prod.js lfx-fullscreen-prod.css.map lfx-fullscreen-prod.js.map
+       [3] multi leaflet-fullscreen leaflet-fullscreen/dist/leaflet.fullscreen.css 40 bytes {0} [built]
+        + 3 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/leaflet-fullscreen/dist/leaflet.fullscreen.css:
+                        Asset       Size  Chunks             Chunk Names
+        css/fullscreen@2x.png  420 bytes          [emitted]  
+           css/fullscreen.png  299 bytes          [emitted]  
+        Entrypoint mini-css-extract-plugin = *
+           5 modules
+Child
+    Hash: 9276dafd3827572804eb
+    Time: 6811ms
+    Built at: 2018-10-13 21:31:30
+                   Asset      Size  Chunks             Chunk Names
+        css/gps-icon.png  2.03 KiB          [emitted]  
+        lfx-gps-prod.css  1.38 KiB       0  [emitted]  main
+         lfx-gps-prod.js  3.81 KiB       0  [emitted]  main
+    lfx-gps-prod.css.map  1.85 KiB       0  [emitted]  main
+     lfx-gps-prod.js.map  13.5 KiB       0  [emitted]  main
+    Entrypoint main = lfx-gps-prod.css lfx-gps-prod.js lfx-gps-prod.css.map lfx-gps-prod.js.map
+       [2] external "L" 42 bytes {0} [built]
+       [4] multi leaflet-gps leaflet-gps/dist/leaflet-gps.min.css 40 bytes {0} [built]
+        + 3 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/leaflet-gps/dist/leaflet-gps.min.css:
+                   Asset      Size  Chunks             Chunk Names
+        css/gps-icon.png  2.03 KiB          [emitted]  
+        Entrypoint mini-css-extract-plugin = *
+           4 modules
+Child
+    Hash: 597e9ae4f20d7c6d20dc
+    Time: 5899ms
+    Built at: 2018-10-13 21:31:30
+                      Asset      Size  Chunks             Chunk Names
+        lfx-gps-bindings.js  1.58 KiB       0  [emitted]  main
+    lfx-gps-bindings.js.map  5.74 KiB       0  [emitted]  main
+    Entrypoint main = lfx-gps-bindings.js lfx-gps-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-gps-bindings.js 1.53 KiB {0} [built]
+Child
+    Hash: add1f53c18d2a0909628
+    Time: 5275ms
+    Built at: 2018-10-13 21:31:29
+                   Asset      Size  Chunks             Chunk Names
+        lfx-hash-prod.js  2.64 KiB       0  [emitted]  main
+    lfx-hash-prod.js.map  7.99 KiB       0  [emitted]  main
+    Entrypoint main = lfx-hash-prod.js lfx-hash-prod.js.map
+       1 module
+Child
+    Hash: 8fc4fa44437f74c53a74
+    Time: 6217ms
+    Built at: 2018-10-13 21:31:30
+                            Asset       Size  Chunks             Chunk Names
+        lfx-measure-path-prod.css  592 bytes       0  [emitted]  main
+         lfx-measure-path-prod.js   6.21 KiB       0  [emitted]  main
+    lfx-measure-path-prod.css.map  856 bytes       0  [emitted]  main
+     lfx-measure-path-prod.js.map   23.7 KiB       0  [emitted]  main
+    Entrypoint main = lfx-measure-path-prod.css lfx-measure-path-prod.js lfx-measure-path-prod.css.map lfx-measure-path-prod.js.map
+       [3] multi leaflet-measure-path leaflet-measure-path/leaflet-measure-path.css 40 bytes {0} [built]
+        + 3 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/leaflet-measure-path/leaflet-measure-path.css:
+        Entrypoint mini-css-extract-plugin = *
+           2 modules
+Child
+    Hash: 4dfbd5826cb2b6e29d5f
+    Time: 5888ms
+    Built at: 2018-10-13 21:31:30
+                               Asset      Size  Chunks             Chunk Names
+        lfx-measure-path-bindings.js  1.22 KiB       0  [emitted]  main
+    lfx-measure-path-bindings.js.map  4.91 KiB       0  [emitted]  main
+    Entrypoint main = lfx-measure-path-bindings.js lfx-measure-path-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-measure-path-bindings.js 1.09 KiB {0} [built]
+Child
+    Hash: b9781b8e0992dc2dc44d
+    Time: 5302ms
+    Built at: 2018-10-13 21:31:29
+                    Asset      Size  Chunks             Chunk Names
+        tile-bing-prod.js   3.3 KiB       0  [emitted]  main
+    tile-bing-prod.js.map  11.1 KiB       0  [emitted]  main
+    Entrypoint main = tile-bing-prod.js tile-bing-prod.js.map
+       1 module
+Child
+    Hash: f1824298379a778e00e0
+    Time: 5880ms
+    Built at: 2018-10-13 21:31:30
+                        Asset       Size  Chunks             Chunk Names
+        tile-bing-bindings.js  755 bytes       0  [emitted]  main
+    tile-bing-bindings.js.map   3.74 KiB       0  [emitted]  main
+    Entrypoint main = tile-bing-bindings.js tile-bing-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/tile-bing-bindings.js 306 bytes {0} [built]
+Child
+    Hash: c229ecd4c82f777f7f0d
+    Time: 6201ms
+    Built at: 2018-10-13 21:31:30
+                          Asset       Size  Chunks             Chunk Names
+        lfx-pulse-icon-prod.css  849 bytes       0  [emitted]  main
+         lfx-pulse-icon-prod.js   1.73 KiB       0  [emitted]  main
+    lfx-pulse-icon-prod.css.map    1.2 KiB       0  [emitted]  main
+     lfx-pulse-icon-prod.js.map   6.78 KiB       0  [emitted]  main
+    Entrypoint main = lfx-pulse-icon-prod.css lfx-pulse-icon-prod.js lfx-pulse-icon-prod.css.map lfx-pulse-icon-prod.js.map
+       [3] multi leaflet-pulse-icon leaflet-pulse-icon/src/L.Icon.Pulse.css 40 bytes {0} [built]
+        + 3 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/leaflet-pulse-icon/src/L.Icon.Pulse.css:
+        Entrypoint mini-css-extract-plugin = *
+           2 modules
+Child
+    Hash: 2bda294d72ddf87a65d6
+    Time: 5861ms
+    Built at: 2018-10-13 21:31:30
+                             Asset      Size  Chunks             Chunk Names
+        lfx-pulse-icon-bindings.js  1.27 KiB       0  [emitted]  main
+    lfx-pulse-icon-bindings.js.map  5.89 KiB       0  [emitted]  main
+    Entrypoint main = lfx-pulse-icon-bindings.js lfx-pulse-icon-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-pulse-icon-bindings.js 1.52 KiB {0} [built]
+Child
+    Hash: 779635084065d8d0a0df
+    Time: 5841ms
+    Built at: 2018-10-13 21:31:30
+                  Asset      Size  Chunks             Chunk Names
+        fuse_js-prod.js  10.8 KiB       0  [emitted]  main
+    fuse_js-prod.js.map  50.3 KiB       0  [emitted]  main
+    Entrypoint main = fuse_js-prod.js fuse_js-prod.js.map
+       1 module
+Child
+    Hash: 930f561c2dc447b7628c
+    Time: 6763ms
+    Built at: 2018-10-13 21:31:30
+                      Asset      Size  Chunks             Chunk Names
+        css/search-icon.png  3.75 KiB          [emitted]  
+             css/loader.gif  1.81 KiB          [emitted]  
+        lfx-search-prod.css   2.6 KiB       0  [emitted]  main
+         lfx-search-prod.js  16.1 KiB       0  [emitted]  main
+    lfx-search-prod.css.map  3.43 KiB       0  [emitted]  main
+     lfx-search-prod.js.map  53.8 KiB       0  [emitted]  main
+    Entrypoint main = lfx-search-prod.css lfx-search-prod.js lfx-search-prod.css.map lfx-search-prod.js.map
+       [2] external "L" 42 bytes {0} [built]
+       [4] multi leaflet-search leaflet-search/dist/leaflet-search.min.css 40 bytes {0} [built]
+        + 3 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/leaflet-search/dist/leaflet-search.min.css:
+                      Asset      Size  Chunks             Chunk Names
+        css/search-icon.png  3.75 KiB          [emitted]  
+             css/loader.gif  1.81 KiB          [emitted]  
+        Entrypoint mini-css-extract-plugin = *
+           5 modules
+Child
+    Hash: a2223ca5d19860d106ab
+    Time: 5851ms
+    Built at: 2018-10-13 21:31:30
+                         Asset      Size  Chunks             Chunk Names
+        lfx-search-bindings.js  8.98 KiB       0  [emitted]  main
+    lfx-search-bindings.js.map  29.8 KiB       0  [emitted]  main
+    Entrypoint main = lfx-search-bindings.js lfx-search-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-search-bindings.js 17 KiB {0} [built]
+Child
+    Hash: b8ac856d753071bfd7a9
+    Time: 5811ms
+    Built at: 2018-10-13 21:31:30
+                    Asset      Size  Chunks             Chunk Names
+        lfx-sleep-prod.js  4.77 KiB       0  [emitted]  main
+    lfx-sleep-prod.js.map  14.3 KiB       0  [emitted]  main
+    Entrypoint main = lfx-sleep-prod.js lfx-sleep-prod.js.map
+       1 module
+Child
+    Hash: 1e50f67873c993466a26
+    Time: 6073ms
+    Built at: 2018-10-13 21:31:30
+                            Asset      Size  Chunks             Chunk Names
+        lfx-webgl-heatmap-prod.js  25.2 KiB       0  [emitted]  main
+    lfx-webgl-heatmap-prod.js.map  72.5 KiB       0  [emitted]  main
+            deep-sea-gradient.png  3.32 KiB          [emitted]  
+             skyline-gradient.png  3.37 KiB          [emitted]  
+    Entrypoint main = lfx-webgl-heatmap-prod.js lfx-webgl-heatmap-prod.js.map
+       [2] multi webgl-heatmap/webgl-heatmap.js leaflet-webgl-heatmap 40 bytes {0} [built]
+        + 2 hidden modules
+Child
+    Hash: d9a5b012889c582a692f
+    Time: 5841ms
+    Built at: 2018-10-13 21:31:30
+                                Asset      Size  Chunks             Chunk Names
+        lfx-webgl-heatmap-bindings.js  3.34 KiB       0  [emitted]  main
+    lfx-webgl-heatmap-bindings.js.map  14.1 KiB       0  [emitted]  main
+    Entrypoint main = lfx-webgl-heatmap-bindings.js lfx-webgl-heatmap-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-webgl-heatmap-bindings.js 6.77 KiB {0} [built]
+Child
+    Hash: 62a51268ca7cf45bf330
+    Time: 6179ms
+    Built at: 2018-10-13 21:31:30
+                          Asset       Size  Chunks             Chunk Names
+        lfx-wms-legend-prod.css  397 bytes       0  [emitted]  main
+         lfx-wms-legend-prod.js    1.8 KiB       0  [emitted]  main
+    lfx-wms-legend-prod.css.map  632 bytes       0  [emitted]  main
+     lfx-wms-legend-prod.js.map   6.74 KiB       0  [emitted]  main
+    Entrypoint main = lfx-wms-legend-prod.css lfx-wms-legend-prod.js lfx-wms-legend-prod.css.map lfx-wms-legend-prod.js.map
+       [3] multi leaflet-wms-legend/leaflet.wmslegend.js leaflet-wms-legend/leaflet.wmslegend.css 40 bytes {0} [built]
+        + 3 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/leaflet-wms-legend/leaflet.wmslegend.css:
+        Entrypoint mini-css-extract-plugin = *
+           2 modules
+Child
+    Hash: 544f30f323130f66ce40
+    Time: 2331ms
+    Built at: 2018-10-13 21:31:26
+                   Asset     Size  Chunks             Chunk Names
+        lfx-heat-prod.js  5.4 KiB       0  [emitted]  main
+    lfx-heat-prod.js.map   15 KiB       0  [emitted]  main
+    Entrypoint main = lfx-heat-prod.js lfx-heat-prod.js.map
+       [0] ./inst/htmlwidgets/src/heat/leaflet-heat.js 4.83 KiB {0} [built]
+Child
+    Hash: d34251b75ce77f875296
+    Time: 5831ms
+    Built at: 2018-10-13 21:31:30
+                       Asset      Size  Chunks             Chunk Names
+        lfx-heat-bindings.js  2.77 KiB       0  [emitted]  main
+    lfx-heat-bindings.js.map  12.4 KiB       0  [emitted]  main
+    Entrypoint main = lfx-heat-bindings.js lfx-heat-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-heat-bindings.js 5.66 KiB {0} [built]
+Child
+    Hash: 4c2aa9400b1509fa1e9f
+    Time: 7992ms
+    Built at: 2018-10-13 21:31:32
+                          Asset     Size  Chunks             Chunk Names
+        pouchdb-browser-prod.js  149 KiB       0  [emitted]  main
+    pouchdb-browser-prod.js.map  641 KiB       0  [emitted]  main
+    Entrypoint main = pouchdb-browser-prod.js pouchdb-browser-prod.js.map
+       [3] (webpack)/buildin/global.js 509 bytes {0} [built]
+        + 17 hidden modules
+Child
+    Hash: 62dfbc3bc6310f83a3a6
+    Time: 5802ms
+    Built at: 2018-10-13 21:31:30
+                        Asset      Size  Chunks             Chunk Names
+        lfx-tilelayer-prod.js  4.18 KiB       0  [emitted]  main
+    lfx-tilelayer-prod.js.map  17.6 KiB       0  [emitted]  main
+    Entrypoint main = lfx-tilelayer-prod.js lfx-tilelayer-prod.js.map
+       1 module
+Child
+    Hash: 6e880253f78ca7ffc15a
+    Time: 6726ms
+    Built at: 2018-10-13 21:31:30
+                                    Asset       Size  Chunks             Chunk Names
+     css/weathericons-regular-webfont.ttf   97.2 KiB          [emitted]  
+                css/markers-shadow@2x.png   1.43 KiB          [emitted]  
+                   css/markers-shadow.png  535 bytes          [emitted]  
+                     css/markers-soft.png   40.3 KiB          [emitted]  
+     css/weathericons-regular-webfont.eot   97.4 KiB          [emitted]  
+     css/weathericons-regular-webfont.svg    181 KiB          [emitted]  
+                  css/markers-soft@2x.png   64.9 KiB          [emitted]  
+    css/weathericons-regular-webfont.woff   55.1 KiB          [emitted]  
+             lfx-weather-markers-prod.css    152 KiB       0  [emitted]  main
+              lfx-weather-markers-prod.js   2.14 KiB       0  [emitted]  main
+         lfx-weather-markers-prod.css.map    194 KiB       0  [emitted]  main
+          lfx-weather-markers-prod.js.map   8.84 KiB       0  [emitted]  main
+    Entrypoint main = lfx-weather-markers-prod.css lfx-weather-markers-prod.js lfx-weather-markers-prod.css.map lfx-weather-markers-prod.js.map
+       [1] ./inst/htmlwidgets/src/weather-icons/weather-icons-wind.min.css 39 bytes {0} [built]
+       [3] ./inst/htmlwidgets/src/weather-icons/weather-icons.min.css 39 bytes {0} [built]
+       [7] multi leaflet-weather-markers/dist/leaflet.weather-markers.js leaflet-weather-markers/dist/leaflet.weather-markers.css ./inst/htmlwidgets/src/weather-icons/weather-icons.min.css ./inst/htmlwidgets/src/weather-icons/weather-icons-wind.min.css 64 bytes {0} [built]
+        + 5 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/leaflet-weather-markers/dist/leaflet.weather-markers.css:
+                            Asset       Size  Chunks             Chunk Names
+        css/markers-shadow@2x.png   1.43 KiB          [emitted]  
+          css/markers-soft@2x.png   64.9 KiB          [emitted]  
+           css/markers-shadow.png  535 bytes          [emitted]  
+             css/markers-soft.png   40.3 KiB          [emitted]  
+        Entrypoint mini-css-extract-plugin = *
+           7 modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!inst/htmlwidgets/src/weather-icons/weather-icons.min.css:
+         4 assets
+        Entrypoint mini-css-extract-plugin = *
+           [0] ./inst/htmlwidgets/src/weather-icons/font/weathericons-regular-webfont.eot 82 bytes {0} [built]
+           [1] ./inst/htmlwidgets/src/weather-icons/font/weathericons-regular-webfont.svg 82 bytes {0} [built]
+           [2] ./inst/htmlwidgets/src/weather-icons/font/weathericons-regular-webfont.ttf 82 bytes {0} [built]
+           [3] ./inst/htmlwidgets/src/weather-icons/font/weathericons-regular-webfont.woff 83 bytes {0} [built]
+           [6] ./node_modules/css-loader!./inst/htmlwidgets/src/weather-icons/weather-icons.min.css 28.1 KiB {0} [built]
+            + 2 hidden modules
+    Child mini-css-extract-plugin node_modules/css-loader/index.js!inst/htmlwidgets/src/weather-icons/weather-icons-wind.min.css:
+                                        Asset      Size  Chunks             Chunk Names
+         css/weathericons-regular-webfont.eot  97.4 KiB          [emitted]  
+         css/weathericons-regular-webfont.svg   181 KiB          [emitted]  
+         css/weathericons-regular-webfont.ttf  97.2 KiB          [emitted]  
+        css/weathericons-regular-webfont.woff  55.1 KiB          [emitted]  
+        Entrypoint mini-css-extract-plugin = *
+           [0] ./inst/htmlwidgets/src/weather-icons/font/weathericons-regular-webfont.eot 82 bytes {0} [built]
+           [1] ./inst/htmlwidgets/src/weather-icons/font/weathericons-regular-webfont.svg 82 bytes {0} [built]
+           [2] ./inst/htmlwidgets/src/weather-icons/font/weathericons-regular-webfont.ttf 82 bytes {0} [built]
+           [3] ./inst/htmlwidgets/src/weather-icons/font/weathericons-regular-webfont.woff 83 bytes {0} [built]
+           [6] ./node_modules/css-loader!./inst/htmlwidgets/src/weather-icons/weather-icons-wind.min.css 124 KiB {0} [built]
+            + 2 hidden modules
+Child
+    Hash: fadeabd45853756f278f
+    Time: 5821ms
+    Built at: 2018-10-13 21:31:30
+                                  Asset      Size  Chunks             Chunk Names
+        lfx-weather-markers-bindings.js  1.41 KiB       0  [emitted]  main
+    lfx-weather-markers-bindings.js.map  6.29 KiB       0  [emitted]  main
+    Entrypoint main = lfx-weather-markers-bindings.js lfx-weather-markers-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-weather-markers-bindings.js 1.72 KiB {0} [built]
+Child
+    Hash: 5d54c6e0dde8355a7532
+    Time: 5794ms
+    Built at: 2018-10-13 21:31:30
+                           Asset      Size  Chunks             Chunk Names
+        lfx-bouncemarker-prod.js  2.91 KiB       0  [emitted]  main
+    lfx-bouncemarker-prod.js.map  12.9 KiB       0  [emitted]  main
+    Entrypoint main = lfx-bouncemarker-prod.js lfx-bouncemarker-prod.js.map
+       1 module
+Child
+    Hash: 195efecf4963c503e3a6
+    Time: 5814ms
+    Built at: 2018-10-13 21:31:30
+                               Asset       Size  Chunks             Chunk Names
+        lfx-bouncemarker-bindings.js  767 bytes       0  [emitted]  main
+    lfx-bouncemarker-bindings.js.map   3.81 KiB       0  [emitted]  main
+    Entrypoint main = lfx-bouncemarker-bindings.js lfx-bouncemarker-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/lfx-bouncemarker-bindings.js 366 bytes {0} [built]
+Child
+    Hash: 98ee355fbd117c18439a
+    Time: 5811ms
+    Built at: 2018-10-13 21:31:30
+                               Asset       Size  Chunks             Chunk Names
+        map-widget-style-bindings.js  772 bytes       0  [emitted]  main
+    map-widget-style-bindings.js.map   3.73 KiB       0  [emitted]  main
+    Entrypoint main = map-widget-style-bindings.js map-widget-style-bindings.js.map
+       [0] ./inst/htmlwidgets/bindings/map-widget-style-bindings.js 289 bytes {0} [built]
