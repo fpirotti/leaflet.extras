@@ -31,12 +31,12 @@
     "leaflet-search": "2.3.7",
     "leaflet-sleep": "0.5.1",
     "leaflet-webgl-heatmap": "0.2.7",
-    "leaflet.BounceMarker": "github:maximeh/leaflet.bouncemarker#v1.1",
+    "leaflet.BounceMarker": "github:maximeh/leaflet.bouncemarker#v1.2",
     "leaflet.heat": "bhaskarvk/Leaflet.heat#60cf4c4",
     "leaflet.tilelayer.pouchdbcached": "nikolauskrismer/Leaflet.TileLayer.PouchDBCached#a92b176",
     "pouchdb-browser": "6.4.3",
     "topojson": "3.0.2",
-    "leaflet.CanvasMarkers": "fpirotti/Leaflet.Canvas-Markers"
+    "leaflet.CanvasMarkers": "github:fpirotti/Leaflet.Canvas-Markers#master"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.5.1",
