@@ -235,6 +235,8 @@ const config = [
   library_prod("leaflet.BounceMarker", "lfx-bouncemarker"),
   library_binding("lfx-bouncemarker"),
 
+  library_prod("leaflet.CanvasMarker/src/plugin/leaflet.canvas-markers.js", "lfx-canvasmarker"),
+  library_binding("lfx-canvasmarker"),
 
   library_binding("map-widget-style")
 

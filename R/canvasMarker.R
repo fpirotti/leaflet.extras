@@ -1,7 +1,7 @@
 # Source: https://github.com/fpirotti/Leaflet.Canvas-Markers
 canvasMarkerDependency <- function() {
   list(
-    # // "leaflet.BounceMarker": "github:fpirotti/Leaflet.Canvas-Markers#v1.1",
+    # // "leaflet.CanvasMarker": "github:fpirotti/Leaflet.Canvas-Markers#v1.1",
     # bounce bindings
     html_dep_prod("lfx-canvasmarker", "1.1.0", has_binding = TRUE)
   )
@@ -11,13 +11,11 @@ canvasMarkerDependency <- function() {
 #' Add Canvas Markers to map
 #' @param map map object created by [leaflet::leaflet]
 #' @param lat numeric latitude
-#' @param lng numeric longitude
-#' @param duration integer scalar: The duration of the animation in milliseconds.
-#' @param height integer scalar: Height at which the marker is dropped.
+#' @param lng numeric longitude 
 #' @md
-#' @author Markus Dumke
+#' @author eJuke/Leaflet.Canvas-Markers
 #' @export
-#' @seealso [GitHub: leaflet.bouncemarker](https://github.com/maximeh/leaflet.bouncemarker)
+#' @seealso [GitHub: leaflet.bouncemarker](https://github.com/eJuke/Leaflet.Canvas-Markers)
 #' @examples
 #' leaflet() %>%
 #'   addTiles() %>%

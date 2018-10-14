@@ -1,4 +1,3 @@
-
 /* global LeafletWidget, L */
 
 LeafletWidget.methods.addCanvasMarkers = function(lat, lng) {
