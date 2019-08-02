@@ -24,12 +24,12 @@ LeafletWidget.methods.addSearchOSM = function(options) {
       map.searchControlOSM.removeFrom(map);
       delete map.searchControlOSM;
     }
-
+    console.log("aggiungo osm!");
     options = options || {};
-    options.textPlaceholder = 'Search using OSM Geocoder';
-    options.url = 'https://nominatim.openstreetmap.org/search?format=json&q={s}';
-    options.jsonpParam = 'json_callback';
-    options.propertyName = 'display_name';
+    if (typeof(options.textPlaceholder) === 'undefined')   options.textPlaceholder = 'Search using OSM Geocoder';
+    if (typeof(options.url) === 'undefined')               options.url = 'https://nominatim.openstreetmap.org/search?format=json&q={s}';
+    if (typeof(options.jsonpParam) === 'undefined')        options.jsonpParam = 'json_callback';
+    if (typeof(options.propertyName) === 'undefined')      options.propertyName = 'display_name';
     options.propertyLoc = ['lat','lon'];
 
     // https://github.com/stefanocudini/leaflet-search/issues/129
